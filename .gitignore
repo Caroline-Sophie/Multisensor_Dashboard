@@ -1,0 +1,29 @@
+# macOS system files
+.DS_Store
+
+# IDE specific files (JetBrains)
+.idea/
+
+
+# Virtual environment files
+pyvenv.cfg
+venv/
+__pycache__/
+
+# Files to ignore for Node.js or Python
+*.log
+*.bak
+*.swp
+
+# Ignore the build directory
+build/
+
+# Ignore all `.tmp` files
+*.tmp
+
+# others
+lib/python3.11/site-packages/*
+bin/faker
+bin/markdown_py
+bin/st-theme
+src/__pycache__/*
